@@ -2,7 +2,7 @@ import React from "react";
 import CarroBranco from "../assets/img/carro-branco.jpg";
 import "./Carros.css";
 
-export default function Carros() {
+export default function Carros(props) {
   return (
     <>
       <div className="carros-img">
@@ -10,19 +10,19 @@ export default function Carros() {
       </div>
       <ul>
         <li>
-          <a href="#">Fiat Uno Hatch compacto</a>
+          <a href="#">{props.modelos[0]}</a>
         </li>
         <li>
-          <a href="#">VW Golf Hatch médio.</a>
+          <a href="#">{props.modelos[1]}</a>
         </li>
         <li>
-          <a href="#">Ford Fiesta Sedan.</a>
+          <a href="#">{props.modelos[2]}</a>
         </li>
         <li>
-          <a href="#">Toyota Corolla.</a>
+          <a href="#">{props.modelos[3]}</a>
         </li>
         <li>
-          <a href="#">Peugeot 207 SW Perua.</a>
+          <a href="#">{props.modelos[4]}</a>
         </li>
       </ul>
     </>
