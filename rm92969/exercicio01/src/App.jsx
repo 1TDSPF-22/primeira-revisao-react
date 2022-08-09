@@ -9,7 +9,9 @@ export default function App(){
 
     return(
         <div>
-            
+            <Cabecalho />
+            <Carro />
+            <Primeiro />
         <div>
     )
 }

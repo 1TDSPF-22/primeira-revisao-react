@@ -4,8 +4,8 @@ export default function Cabecalho(){
     return(
 
         <header>
-            <h1></h1>
-            <p></p>
+            <h1>Inicio do desenvolvimento com componentes</h1>
+            <p>Componentização</p>
         </header>
     )
 }
