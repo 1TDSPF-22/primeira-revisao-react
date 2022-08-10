@@ -12,6 +12,6 @@ export default function App(){
             <Cabecalho />
             <Carro />
             <Primeiro />
-        <div>
+        </div>
     )
 }
