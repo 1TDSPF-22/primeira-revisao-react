@@ -10,10 +10,10 @@ export default function App (){
 
     return(
         <div>
-        <h1> {tag} </h1>
-        <h2> Elemento 2 </h2>
-        <h3> Elemento 3</h3>
-        <Primeiro> </Primeiro>
+            <h1> {tag} </h1>
+            <h2> Elemento 2 </h2>
+            <h3> Elemento 3</h3>
+            <Primeiro></Primeiro>
         </div>
     )
 }
